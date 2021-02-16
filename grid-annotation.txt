@@ -1,0 +1,24 @@
+*** GRID LAYOUT ***
+
+grid-template-columns -> define as colunas do grid
+grid-template-columns: 100px 100px 100px -> cria 3 colunas de 100px;
+
+Unidade 'fr' -> funciona como uma unidade fracional
+
+grid-template-columns: 1fr 2fr 1fr -> O 2fr é 2 vezes maior que o 1fr
+
+grid-gap: Cria um gap entre os itens, ou seja, da um espaçamento como se fosse uma margem.
+
+Observação sobre FR -> quando você define um elemento com fr, ele vai respeitar o tamanho do conteúdo do elemento.
+
+MINMAX(minimo, maximo) -> define o tamanho mínimo e tamanho máximo da coluna, é somente utilizado no grid layout. 
+
+Ex.: grid-template-columns: minmax(200px, 1fr) 2fr 1fr -> A primeira coluna terá um valor mínimo de 200px e máximo de 1fr.
+
+REPEAT( quantidade para repitir, tamanho da coluna) -> repete uma quanditade x de colunas de tamanhos y.
+
+Ex.: grid-template-columns: repeat(3, 1fr) -> cria 3 colunas de 1fr.
+
+Propriedade AUTO-FIT -> calcula automaticamento o total de colunas 
+
+
