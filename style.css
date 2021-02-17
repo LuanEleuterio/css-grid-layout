@@ -124,3 +124,16 @@ h1 {
 .footer{
   grid-area: footer;
 }
+
+.grid-template-1{
+  grid-template: 100px 1fr / 25% auto 30%;
+}
+
+.grid-template-2{
+  grid-template: 
+  "logo nav nav" 50px
+  "sidenav content advert" 150px
+  "sidenav footer footer" 100px
+  / 100px 1fr 50px
+  ;
+}

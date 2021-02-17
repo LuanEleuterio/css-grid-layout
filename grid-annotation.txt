@@ -21,4 +21,8 @@ Ex.: grid-template-columns: repeat(3, 1fr) -> cria 3 colunas de 1fr.
 
 Propriedade AUTO-FIT -> calcula automaticamento o total de colunas 
 
+GRID TEMPLATE
 
+grid-template: row / column
+
+grid-template: 100px 1fr / 50px 100px 1fr -> cria 1 linha de 100px e outra de 1 fr e cria 3 colunas de 50px, 100px e 1fr
